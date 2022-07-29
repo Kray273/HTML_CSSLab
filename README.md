@@ -1,5 +1,5 @@
 # HTML_CSSLab 
-Bigdata lecture
+Bigdata lecture https://www.notion.so/ce0f5d22bf4848baa4ece180773255bd?v=2dec0a18a2874eb38ea88e972b06170e
 
 Day08 https://www.notion.so/Day08-fb412822fcd6479697adeb179e095278
 

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style> table, th, td{
+    border: 1px solid black;
+    border-collapse : collapse;
+    }
+    </style>
+</head>
+<body>
+<!-- 04 테이블에 캡션표시 -->
+    <table>
+        <caption>대표 주소록</caption>
+        <tr>
+            <th>name</th>
+            <th>address</th>
+            <th>digit</th>
+        </tr>
+        <tr>
+            <td> 정우</td>
+            <td> 강원도 속초</td>
+            <td> 010-0000-1025</td>
+        </tr>
+        <tr>
+            <td> 우정</td>
+            <td> 속초 강원도</td>
+            <td> 010-1025-0000</td>
+        </tr>
+    </table>
+    <br>
+<!-- 05 열 그룹 지정 -->
+    <table>
+        <colgroup>
+            <col span="2" style="background-color:cyan">
+            <col style="background-color: yellow">
+            <col>
+        </colgroup>
+        <tr>
+            <th>name</th>
+            <th>address</th>
+            <th>digit</th>
+            <th>gender</th>
+        </tr>
+        <tr>
+            <td> 정우</td>
+            <td> 강원도 속초</td>
+            <td> 010-0000-1025</td>
+            <td> men </td>
+        </tr>
+        <tr>
+            <td> 우정</td>
+            <td> 속초 강원도</td>
+            <td> 010-1025-0000</td>
+            <td> nem </td>
+    </table>
+    <br>
+<!-- 06  테이블 머리말,본문, 꼬리말 구분-->
+    <table>
+        <thead style="color: green">
+            <tr>
+                <th>월별</th>
+                <th>수입</th>
+            </tr>
+        </thead>
+        <tbody style="color: red">
+            <tr>
+                <td>1월</td>
+                <td>400원</td>
+            </tr>
+            <tr>
+                <td>2월</td>
+                <td>500원</td>
+            </tr>
+            <tr>
+                <td>3월</td>
+                <td>200원</td>
+            </tr>
+        </tbody>
+        <tfoot style="color: blue">
+            <tr> 
+                <td> 총액</td>
+                <td>1,100원</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

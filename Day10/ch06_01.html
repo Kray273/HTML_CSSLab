@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- 01 이미지 표시 -->
+    <img src="img/AH.jpg" width="150" height="250" alt="an hathway" title="welcome to kray273">
+
+<!-- 02 이미지 크기 조절 -->
+    <img src="img/JC.jpg" style="width:75px; height:125px"   alt="Jennifer Connelly" title="welcome to kray273">
+    <img src="img/AH.jpg" width="150" height="250" alt="an hathway" title="welcome to kray273">
+
+<!-- 03 이미지 배치 -->
+    <h5>문단위에 이미지 배치</h5>
+    <img src="img/JC.jpg" alt="Jennifer Connelly" style="width: 60px; height:82px ">
+    <p>
+        제니퍼 코넬리는 최근 탑건 매브릭에서 훌륭한 연기를 선보였다.
+    </p>
+    <h5>문단 내의 제일 앞에 배치</h5>
+    <p>
+        <img src="img/AH.jpg" alt="an hathway" style="width: 60px; height:82px ">
+        앤해서웨이는 인턴에서 줄리라는 역할을 맡았다.
+    </p>
+    <h5>문단 중간에 배치</h5>
+    <p> 제니퍼 코넬리는 
+        <img src="img/JC.jpg" alt="Jennifer Connelly" style="width: 60px; height:82px ">
+        뷰리풀 마인드에 출연했다.
+    </p>
+
+<!-- 03 -2 영역을 분리  -->
+    <h5>float:right 사용</h5>
+        <p>
+            <img src="img/AH.jpg" alt="an hathway" style="width: 60px; height:82px; float:right;" >
+            앤해서웨이는 인턴에서 줄리라는 역할을 맡았다.
+        </p>
+
+    <h5>float:left 사용</h5>
+    <p>  
+        <img src="img/JC.jpg" alt="Jennifer Connelly" style="width: 60px; height:82px; float: left; ">
+        제니퍼 코넬리는 뷰리풀 마인드에 출연했다.
+    </p>
+
+<!-- 04 이미지에 캡션달기  -->
+    <h5>캡션달기</h5>
+    <p>
+        앤해서웨이는 인턴에서 줄리라는 역할을 맡았다.
+    </p>
+    <figure>
+        <img src="img/AH.jpg" alt="an hathway" style="width: 60px; height:82px;" >
+        <figcaption>
+            *An hathway*
+        </figcaption>
+    </figure>
+
+<!-- 04 -2 여러개의 이미지를 그룹으로 -->
+    <h5>이미지 그룹</h5>
+    <figure>
+        &nbsp &nbsp &nbsp
+        <img src="img/AH.jpg" alt="an hathway" style="width: 60px; height:82px;">
+        &nbsp &nbsp &nbsp &nbsp
+        <img src="img/JC.jpg" alt="Jennifer Connelly" style="width: 60px; height:82px" >
+        <figcaption> 
+            *An hathway&Jennifer Connelly*
+        </figcaption>
+    </figure>
+<!-- 05 이미지 맵 -->
+    <h5>이미지맵</h5>
+    <p>두 배우를 모아보자</p>
+    <img src="img/AH.jpg" alt="an hathway" style="width: 60px; height:82px;" usemap="#map">
+    <map name="map">
+        <area shape="rect" coords="0.0.136.120" href="ch04_01.html" alt="그냥">
+        <area shape="rect" coords="137.0.272.120" href="ch04_03.html" alt="그냥">
+        <area shape="rect" coords="0.120.137.120" href="ch04_06.html" alt="그냥">
+        <area shape="rect" coords="136.121.272.240" href="ch05_01.html" alt="그냥">
+    </map>
+
+</body>
+</html>

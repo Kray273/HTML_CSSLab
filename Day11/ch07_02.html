@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+    <head>
+        <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    </head>
+<body>
+<!-- 02 글자수 제한 및 필드 크기지정 -->
+    <form>
+        회원번호 : <br>
+        <input type = "text" name = "number" size="8">
+        <br><br>
+        주소 : <br>
+        <input type = "text" name = "address" value="한국" maxlength="20">
+    </form>
+        <p> 회원번호와 주소를 입력하세요.</p>
+        <br>
+<!-- 03 택스트에리어 만들기 -->
+    <form>
+        <p> 질문!!</p>
+        <textarea name="question" rows="10" cols="40">
+        여기에 써주세요.
+        </textarea>
+    </form>
+    <br>
+<!-- 04  radio checkbox -->
+    <form>
+        <p> 선택하세요.</p>
+        <input type="radio" name="phone" value="1"checkd>
+            갤럭시<br>
+        <input type="radio" name="phone" value="2"checkd>
+            넥서스<br>
+        <input type="radio" name="phone" value="3"checkd>
+            사과<br>
+    </form>
+    <br>
+    <form>
+        <p> bootstrap</p>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1">삼성</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2">샤오미</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+            <label class="form-check-label" for="inlineRadio3">사과 </label>
+        </div>
+    </form>
+    <br>
+<!-- 04_02checkbox -->
+    <form>
+        <p> 회사를 선택하세요.</p>
+        <input type="radio" name="phone" value="1"checkd>
+            갤럭시<br>
+        <input type="radio" name="phone" value="2"checkd>
+            넥서스<br>
+        <input type="radio" name="phone" value="3"checkd>
+            사과<br>
+        <br>
+        <p> 통신사를 선택하세요.</p>
+        <input type="radio" name="telecom" value="1"checkd>
+            SK<br>
+        <input type="radio" name="telecom" value="2"checkd>
+            LG<br>
+        <input type="radio" name="telecom" value="3"checkd>
+            KT<br>
+    </form>
+    <br>
+    <form>
+        <p> 선택하세요.</p>
+        <input type="radio" name="gender" value="1"checkd>
+            남<br>
+        <input type="radio" name="gender" value="2"checkd>
+            여<br>
+    </form>
+    <br>
+    <form>
+        <p> 취미 선택하세요.</p>
+        <input type="checkbox" name="hobby" value="game">
+            게임<br>
+        <input type="checkbox" name="hobby" value="movis">
+            영화<br>
+        <input type="checkbox" name="hobby" value="play" checked>
+            베드민턴<br>
+        <p>복수의 선택이 가능</p>
+        <br>
+    </form>
+</body>
+</html>

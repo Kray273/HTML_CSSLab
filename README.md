@@ -20,3 +20,13 @@ Day15 https://www.notion.so/Day15-4ce4dc7297d442368b0e60fb1d2ee24f
 Day16 https://www.notion.so/Day16-3923c2bc8d094df8adafc1ab0c18c79b
 
 Day95 https://www.notion.so/Day-S-95_StatersOT_HTML-81e6701be4f747a4903db0e1d3188345
+
+Day96 https://www.notion.so/Day-S-96_Html-fe987fe8bc554700b8a9393952a04264
+
+Day97
+
+Day98
+
+Day99
+
+Day100

@@ -23,7 +23,7 @@ Day95 https://www.notion.so/Day-S-95_StatersOT_HTML-81e6701be4f747a4903db0e1d318
 
 Day96 https://www.notion.so/Day-S-96_Html-fe987fe8bc554700b8a9393952a04264
 
-Day97
+Day97 https://www.notion.so/Day-S-97_Css-f4bdeb789e4646e7830e5ecd4ffed9be
 
 Day98
 

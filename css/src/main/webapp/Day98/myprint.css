@@ -1,0 +1,5 @@
+/* myprint.css */
+@charset "UTF-8";
+@media print {
+	body{background-color: pink;}
+}

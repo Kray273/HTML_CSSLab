@@ -6,10 +6,43 @@
 <title>Media query</title>
 
 <style type="text/css">
+/*  미디어 쿼리 지정 전 */
 	body {
 	background-image:url("../Day97/google.png"); 
 	background-position: top center;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 600px;
+} 
+
+/*  미디어 쿼리 지정 지정 */
+
+@media screen and (max-width:600px){ /* 덮어쓰는 기능이 있어 내림차순으로 작성 */
+	body {
+		background-image:url("../Day97/google.png"); 
+		background-position: bottom center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	}
+}
+
+@media screen and  (orientation : landscape) { /* 방향전환 */
+	body {
+		background-image:url("../Day97/google.png"); 
+		background-position: right center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: 100px
+	}
+}
+
+@media screen and (min-width: 801px) and (max-width:1000px){
+	body {
+		background-image:url("http://localhost:8080/html/img/drinks.jpg"); 
+		background-position: right center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	}
 }
 </style>
 </head>

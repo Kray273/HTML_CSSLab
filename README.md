@@ -25,8 +25,4 @@ Day96 https://www.notion.so/Day-S-96_Html-fe987fe8bc554700b8a9393952a04264
 
 Day97 https://www.notion.so/Day-S-97_Css-f4bdeb789e4646e7830e5ecd4ffed9be
 
-Day98
 
-Day99
-
-Day100

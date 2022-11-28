@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!--  <meta name="viewport" content="width=device-width, initial-scale=1">-->
+<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1">
+<!-- 디바이스에 따라 가로길이 설정, 확대 기능 동의, 비율은 1배 -->
+<title>Viewport</title>
+<style type="text/css">
+/* @media는 미디어 쿼리를 사용하기 위한 문법*/
+/* @media 매체 and (기능){css} */
+@media screen and (max-width:500px){
+	h1{
+		/*font-size: 5vw;  뷰포트의 단위!*/
+		font-size : 10px;
+ 		text-align: center; /* 500px 이하가 될 때만 적용됨! */
+ 	}
+ }
+</style>
+
+</head>
+<body>
+
+<h1> 안녕하시죠? </h1>
+
+</body>
+</html>

@@ -30,14 +30,31 @@
 		background-color: purple;
 	}
 	
- 	#mainmenu ol{
+ 	 
+ 	
+	/* list inline 중앙정렬1 
+	#mainmenu li{
+		display: inline;
+	}  
+	
+	 #mainmenu ol{
  		margin : auto;
  		text-align: center;
  	}
- 	
+	*/
+	
+	/* list inline 중앙정렬2 */
 	#mainmenu li{
-		display: inline;
-	} 
+		display: inline-block;
+		background-color: yellow;
+	}
+	
+	#mainmenu {
+ 		display: flex;
+ 		flex-direction:row; 
+ 		justify-content: center;
+ 	}
+	
 	
 	a {
 	 	text-decoration: none;			
